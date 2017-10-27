@@ -3,6 +3,7 @@
         <form class="col s12">
             <div class="row">
                 <Duration/>
+                <Players/>
             </div>
         </form>
     </div>
@@ -10,11 +11,13 @@
 
 <script>
 import Duration from './MatchDuration'
+import Players from './MatchPlayers'
 
 export default {
     name: 'Match',
     components: {
-        Duration
+        Duration,
+        Players
     }
 }
 </script>

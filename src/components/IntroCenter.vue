@@ -11,11 +11,9 @@
         name:'IntroCenter',
         methods: {
             toNewPlayer (event) {
-                console.log('New player requested;')
                 this.$parent.$emit('ChangeView', 'NewPlayer');
             },
             toMatch (event) {
-                console.log('New player requested;')
                 this.$parent.$emit('ChangeView', 'Match');
             }
         }
