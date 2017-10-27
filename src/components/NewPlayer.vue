@@ -7,8 +7,8 @@
         <div class="col s12">
           Enter desired nickname. Coolest ones rocks!:
           <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Nickname</label>
+            <input id="nickname" type="text" class="validate">
+            <label>Nickname</label>
           </div>
         </div>
       </div>
