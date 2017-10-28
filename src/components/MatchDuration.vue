@@ -50,7 +50,6 @@ export default {
             }
         },
         radioTime (event) {
-            console.log(event.target.id);
             this.$parent.$emit('durationTime', event.target.id);
         }
     }
