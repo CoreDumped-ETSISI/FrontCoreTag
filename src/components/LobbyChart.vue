@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="col s7">
+        <div class="col s9">
             <div class="card">
                 <!-- Custom information -->
                 <div class="about">

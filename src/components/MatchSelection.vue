@@ -10,5 +10,18 @@
 
 <script>
 export default {
-    name: "MatchSelection"
+    name: "MatchSelection",
+    data:{
+        
+    },
+    methods:{
+        loadData(){
+            $.get("http://192.168.0.25:3000/api/getMatches", //Required URL of the page on server
+                function(data,status,request){
+                    console.log("Matches requested!");
+
+                }
+            );
+        }
+    }
 }
