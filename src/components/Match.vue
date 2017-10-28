@@ -2,9 +2,10 @@
     <div class="row">
         <form class="col s12">
             <div class="row">
-	    	<Type/>
+                <Type/>
                 <Duration/>
                 <Players/>
+                <Lifes/>
             </div>
         </form>
     </div>
@@ -14,13 +15,15 @@
 import Type from './MatchType'
 import Duration from './MatchDuration'
 import Players from './MatchPlayers'
+import Lifes from './MatchLifes'
 
 export default {
     name: 'Match',
     components: {
-	Type,
+        Type,
         Duration,
-        Players
+        Players,
+        Lifes
     }
 }
 </script>
