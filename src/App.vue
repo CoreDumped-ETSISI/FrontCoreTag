@@ -52,8 +52,9 @@ export default {
 </script>
 
 <style>
- @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');	
- #app {
+	@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');	
+		
+	#app {
 		font-family: 'Roboto', Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -61,9 +62,28 @@ export default {
 		color: #ccc;
 		background-color: #071930;
 	}
+	
 	body{
 		font-family: 'Roboto', Helvetica, Arial, sans-serif;
 		font-size: 14pt;
 		background-color: #071930;
+	}
+	
+	.btn-red{
+		background-color: #851934;
+		color: white;
+		text-shadow: 2px 2px 2px #071930;
+	}
+	.btn-blue{
+		background-color: #03A694;
+		color: white;
+		text-shadow: 2px 2px 2px #071930;
+	}
+	
+	.btn-large{
+		color: white;
+		text-shadow: 2px 2px 2px #071930;
+		font-family: 'Merriweather';
+		font-size: 12pt;
 	}
 </style>

@@ -18,7 +18,7 @@ export default {
 	}
 	.brand-logo{
 		background-position:center;
-		background-image: url('../assets/logo2.png');
+		background-image: url('../assets/logo.png');
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
