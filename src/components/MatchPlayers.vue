@@ -20,13 +20,13 @@
                 <div class="col s6 blueTeamTitle">
                     <span class="flow-text">Blue Team</span>
                     <td id="blueTeamTable">
-                        <p v-for="player  in blueTeam">{{player[0]}}</p>
+                        <span class="blue-player player-element" v-for="player  in blueTeam">{{player[0]}}</span>
                     </td>
                 </div>
                 <div class="col s6 redTeamTitle">
                     <span class="flow-text">Red Team</span>
                     <td id="redTeamTable">
-                        <p v-for="player in redTeam">{{player[0]}}</p>
+                        <span class="red-player player-element" v-for="player in redTeam">{{player[0]}}</span>
                     </td>
                 </div>
             </div>
@@ -81,7 +81,8 @@ export default {
 .blueTeamTitle{
     background-color: #03A694;
     border-radius: 5pt 0pt 0pt 5pt;
-    color: #071930;
+    color: white;
+	text-shadow: 2px 2px 2px #071930;
     font-family: 'Merriweather';
     font-size: 12pt;
     padding: 10px;
@@ -91,9 +92,27 @@ export default {
     border-radius: 0pt 5pt 5pt 0pt;
     padding: 10px;
     font-family: 'Merriweather';
-    color: #071930; 
+    color: white;
+	text-shadow: 2px 2px 2px #071930;
     font-size: 12pt;
 }
+
+.player-element{
+	color: #071930;
+	font-size: 16pt;
+	text-shadow: none;
+	background-repeat: no-repeat;
+	padding: 0	0 7px 35px;	/* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+}
+.blue-player{
+	background-image: url('../assets/pistol-red.png');
+}
+.red-player{
+	background-image: url('../assets/pistol-blue.png');
+}
+
+
 .flow-text{
     font-size:24pt;
     padding: 0px;
