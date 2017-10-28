@@ -59,9 +59,10 @@ export default {
     },
     methods: {
         joinMatch (event){
-            //PLEASE DELETE ALL HTML INJECTION CODE!!!
             var newPlayer = document.getElementById("autocomplete-input").value
             var newWeapon = document.getElementById("weapon-id").value
+            document.getElementById("autocomplete-input").value = ""
+            document.getElementById("weapon-id").value = ""
             if(this.playerAmount < 2){
                 this.blueTeam.push([newPlayer.toString(), newWeapon.toString()]);
                 this.$parent.$emit('blueTeam', this.blueTeam);
