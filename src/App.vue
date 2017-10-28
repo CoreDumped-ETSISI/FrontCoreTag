@@ -43,17 +43,18 @@ export default {
 </script>
 
 <style>
- @import url('https://fonts.googleapis.com/css?family=Roboto');	
+ @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');	
  #app {
-	  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	  -webkit-font-smoothing: antialiased;
-	  -moz-osx-font-smoothing: grayscale;
-	  text-align: center;
-	  color: #ccc;
-	  background-color: #071930;
+		font-family: 'Roboto', Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-align: center;
+		color: #ccc;
+		background-color: #071930;
 	}
 	body{
 		font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	  background-color: #071930;
+		font-size: 14pt;
+		background-color: #071930;
 	}
 </style>

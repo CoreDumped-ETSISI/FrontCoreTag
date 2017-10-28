@@ -17,12 +17,13 @@ export default {
 		background-color: #023852 !important;
 	}
 	.brand-logo{
+		background-position:center;
 		background-image: url('../assets/logo2.png');
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
 		text-indent: -999999em;
-		display: inline-block;
+		display: block;
 		width: 100%;
 		height: 100%;
 	}
