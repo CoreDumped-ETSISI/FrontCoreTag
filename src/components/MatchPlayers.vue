@@ -1,8 +1,6 @@
 <<template>
     <div class="teamMatchup">
-      <h1>Players, match up to next battle!</h1>
-      <p>Set your nickname into the browser, and pick a team! 
-        If you prefer to randomize the match up, just hit the random button!</p>
+      <p>Choose your nickname: </p>
 
       <div class="row">
         <div class="col s12">
