@@ -106,10 +106,10 @@ export default {
 	display: block;  /* may not need this, but I've found I do */
 }
 .blue-player{
-	background-image: url('../assets/pistol-red.png');
+	background-image: url('../../../assets/pistol-red.png');
 }
 .red-player{
-	background-image: url('../assets/pistol-blue.png');
+	background-image: url('../../../assets/pistol-blue.png');
 }
 
 
