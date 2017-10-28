@@ -22,6 +22,10 @@
 
 <style scoped>
     .buttonContainer{
-        margin-top: 30%;
+        margin-top: 20%;
+		background-color: #071930;
     }
+	.btn-large{
+		background-color: #03A694;
+	}
 </style>

@@ -1,6 +1,5 @@
 <template>
     <div>
-        <span>Type of match:</span>
 	<div class="input-field col s12">
         	<select id="example-1" v-on:change="typeChosen">
 	            <option value="" disabled selected>Choose a match type</option>
@@ -8,7 +7,7 @@
 		            {{type.message}} 
 	            </option>
 		</select>
-        	<label>Materialize Select hey</label>
+        	<label>Type of match:</label>
         </div>
     </div>
 </template>
