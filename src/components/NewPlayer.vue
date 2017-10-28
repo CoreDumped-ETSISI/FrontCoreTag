@@ -38,3 +38,19 @@ export default {
         }
 }
 </script>
+
+<style scoped>
+	input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea {
+		font-size: 14pt;
+		}
+	.input-field.inline{
+		vertical-align: baseline;
+	}
+	
+	.input-field.inline input, .input-field.inline .select-dropdown {
+	margin-bottom: 1rem;
+	margin-left: 0.5rem;
+}
+	
+		
+</style>
