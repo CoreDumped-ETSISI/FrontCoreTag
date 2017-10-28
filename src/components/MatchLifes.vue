@@ -10,7 +10,7 @@ export default {
     name: 'Lifes',
     methods: {
         setLifes(event){
-            this.$parent.$emit('durationTime', event.target.value);
+            this.$parent.$emit('life', event.target.value);
         }
     }
 

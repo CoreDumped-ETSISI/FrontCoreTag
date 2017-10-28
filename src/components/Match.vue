@@ -3,7 +3,7 @@
         <br>
         <form class="col s6 offset-s3">
             <div class="row">
-                <Type/><br>
+                <!--<Type/><br>-->
                 <Duration/><br>
                 <Players/><br>
                 <Lifes/>
@@ -28,6 +28,7 @@ export default {
         return{
             duration: 'infinite',
             durationTime: '0',
+            life: 0
         }
     },
     components: {
@@ -47,6 +48,9 @@ export default {
         });
         this.$on('durationTime', function(msg) {
             this.durationTime = msg;
+        });
+        this.$on('life', function(msg){
+            this.life = msg;
         });
     }
 }
