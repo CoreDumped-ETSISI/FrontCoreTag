@@ -7,6 +7,10 @@
                 <Duration/><br>
                 <Players/><br>
                 <Lifes/>
+                <br>
+                <a class="btn waves-effect waves-light btn-large col s8" v-on:click="createMatch">
+                    Submit
+                </a>
             </div>
         </form>
     </div>
@@ -20,11 +24,30 @@ import Lifes from './MatchLifes'
 
 export default {
     name: 'Match',
+    data: function () {
+        return{
+            duration: 'infinite',
+            durationTime: '0',
+        }
+    },
     components: {
         Type,
         Duration,
         Players,
         Lifes
+    },
+    methods:{
+        createMatch (){
+            console.log(this.duration);
+        }
+    },
+    created() {
+        this.$on('duration', function (msg) {
+            this.duration = msg;
+        });
+        this.$on('durationTime', function(msg) {
+            this.durationTime = msg;
+        });
     }
 }
 </script>
