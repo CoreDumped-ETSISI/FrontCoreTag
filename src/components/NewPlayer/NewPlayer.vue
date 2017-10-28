@@ -20,7 +20,6 @@
 </template>
 
 <script>
-
 export default {
 
     name: 'NewPlayer',
@@ -35,7 +34,8 @@ export default {
                 function(response,status){
                     console.log("Usuario insertado");
                     //alert("*-Received Data-*\n\nResponse : " + response+"\n\nStatus : " + status);
-                });
+                }
+            );
         }
     }
 

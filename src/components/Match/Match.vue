@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import Type from './Type/MatchType'
-import Duration from './Duration/MatchDuration'
-import Players from './Players/MatchPlayers'
-import Lifes from './Lifes/MatchLifes'
+import Type from './MatchType'
+import Duration from './MatchDuration'
+import Players from './MatchPlayers'
+import Lifes from './MatchLifes'
 
 export default {
     name: 'Match',
@@ -96,5 +96,4 @@ export default {
 </script>
 
 <style>
-
 </style>
