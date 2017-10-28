@@ -29,10 +29,10 @@ export default {
 <style>
 .lifes{
     font-size: xx-large;
-    font-size: 350%;
+    font-size: 250%;
 }
 .extra-lifes{
-    font-size: 200%;
+    font-size: 100%;
 }
 
 </style>

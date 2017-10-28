@@ -61,7 +61,6 @@
                 </div>
             </div>
         </div>
-        <div class="col s4"></div>
     </div>
 </template>
 
@@ -161,7 +160,7 @@ body {
     background-color: #fff;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 50%;
+    bottom: -30%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 300px;

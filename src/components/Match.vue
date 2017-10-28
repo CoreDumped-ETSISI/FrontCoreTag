@@ -50,7 +50,18 @@ export default {
             var jsonToReturn = '{"time":"'+time+'",'+
                 this.blueTeam+','+this.redTeam+',"life":"'+this.life+'"}';
             console.log(jsonToReturn);
+
+            $.post("http://192.168.0.25:3000/api/createMatch", //Required URL of the page on server
+                { // Data Sending With Request To Server
+                    "match":jsonToReturn,
+                },
+                function(response,status){
+                    console.log("Match Creatred");
+                    this.$parent.$emit('ChangeView', 'Player');
+                    //alert("*-Received Data-*\n\nResponse : " + response+"\n\nStatus : " + status);
+                });
         }
+
     },
     created() {
         this.$on('duration', function (msg) {
