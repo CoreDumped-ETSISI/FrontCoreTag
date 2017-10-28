@@ -1,10 +1,11 @@
 <template>
-    <div class="row">
-        <form class="col s12">
+    <div class="row main">
+        <br>
+        <form class="col s6 offset-s3">
             <div class="row">
-                <Type/>
-                <Duration/>
-                <Players/>
+                <Type/><br>
+                <Duration/><br>
+                <Players/><br>
                 <Lifes/>
             </div>
         </form>
@@ -27,3 +28,7 @@ export default {
     }
 }
 </script>
+
+<style>
+
+</style>
