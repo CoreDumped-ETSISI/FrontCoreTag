@@ -11,6 +11,9 @@
     <div v-if="page == 'Match'">
       <Match/>
     </div>
+    <div v-if="page == 'Player'">
+      <Player/>
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,7 @@ import HeaderComp from './components/Header'
 import IntroCenter from './components/IntroCenter'
 import NewPlayer from './components/NewPlayer'
 import Match from './components/Match'
+import Player from './components/Player'
 
 export default {
   name: 'app',
@@ -33,7 +37,8 @@ export default {
     HeaderComp,
     IntroCenter,
     NewPlayer,
-    Match
+    Match,
+    Player
   },
   created() {
     this.$on('ChangeView', function (view) {
