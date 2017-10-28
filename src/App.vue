@@ -22,11 +22,11 @@
 
 <script>
 import HeaderComp from './components/Header'
-import IntroCenter from './components/IntroCenter'
-import NewPlayer from './components/NewPlayer'
-import Match from './components/Match'
-import Player from './components/Player'
-import MatchSelection  from './components/MatchSelection'
+import IntroCenter from './components/IntroCenter/IntroCenter'
+import NewPlayer from './components/NewPlayer/NewPlayer'
+import Match from './components/Match/Match'
+import Player from './components/Player/Player'
+import MatchSelection  from './components/MatchSelection/MatchSelection'
 
 export default {
   name: 'app',

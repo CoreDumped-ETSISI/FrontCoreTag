@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="input-field col s12">
-            <select id="example-1" v-model="selected" v-on:change="typeChosen">
+            <select v-model="selected" v-on:change="typeChosen">
                 <option value="" disabled selected>Choose a match type</option>
                 <option v-for="(type, index) in types" v-bind:value="index">
                 {{type.message}} 
