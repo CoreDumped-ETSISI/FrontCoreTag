@@ -47,8 +47,8 @@ export default {
             else{
                 time=this.durationTime;
             }
-            var jsonToReturn = '{"time":"'+time+'",'+
-                this.blueTeam+','+this.redTeam+',"life":"'+this.life+'"}';
+            var jsonToReturn = '{"time":"'+time+'","teams": [{'+
+                this.blueTeam+'},{'+this.redTeam+'}],"life":"'+this.life+'"}';
             console.log(jsonToReturn);
 
             $.post("http://192.168.0.25:3000/api/createMatch", //Required URL of the page on server
