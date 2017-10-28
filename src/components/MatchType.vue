@@ -38,3 +38,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+	.blueTeamTitle{
+		background-color: #03A694;
+	}
+
+</style>

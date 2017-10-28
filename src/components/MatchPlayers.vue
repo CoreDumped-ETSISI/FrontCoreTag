@@ -66,14 +66,26 @@ export default {
   }
 }
 </script>
-<<style>
+<style scoped>
   .blueTeamTitle{
-    background-color: blue;
-    color: white;
+    background-color: #03A694;
+	border-radius: 5pt 0pt 0pt 5pt;
+    color: #071930;
+	font-family: 'Merriweather';
+	font-size: 12pt;
+	padding: 10px;
   }
   .redTeamTitle{
-    background-color: red;
-    color: black;
+    background-color: #F24738;
+	border-radius: 0pt 5pt 5pt 0pt;
+	padding: 10px;
+	font-family: 'Merriweather';
+    color: #071930; 
+	font-size: 12pt;
   }
+  .flow-text{
+	font-size:24pt;
+	padding: 0px;
+	}
 </style>
 
