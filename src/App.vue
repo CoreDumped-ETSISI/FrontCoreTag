@@ -29,7 +29,6 @@ export default {
     }
   },
   components: {
-    HelloWorld,
     HeaderComp,
     IntroCenter,
     NewPlayer,
