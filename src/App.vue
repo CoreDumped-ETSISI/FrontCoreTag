@@ -44,11 +44,17 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+ @import url('https://fonts.googleapis.com/css?family=Roboto');	
+ #app {
+	  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  text-align: center;
+	  color: #ccc;
+	  background-color: #071930;
+	}
+	body{
+		font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	  background-color: #071930;
+	}
 </style>
