@@ -1,19 +1,16 @@
 <template>
     <div>
         <span>Type of match:</span>
-        <ul>
-            <li v-for="item in items">{{ item.message }}</li>
-        </ul>
-        <!--		<div class="input-field col s12">
-            <select id="example-1">
-            <option value="" disabled selected>Choose a match type</option>
-            <option v-for="(type, index) in types">
-            {{type.message}} 
-            </option>
-            </select>
-            <label>Materialize Select hey</label>
-            </div>
-        -->	</div>
+	<div class="input-field col s12">
+        	<select id="example-1">
+	            <option value="" disabled selected>Choose a match type</option>
+        	    <option v-for="(type, index) in types">
+		            {{type.message}} 
+	            </option>
+		</select>
+        	<label>Materialize Select hey</label>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -21,16 +18,16 @@ export default {
     name: 'Type',
     data: function(){
         return {
-            items: [
-                { message: 'Foo' },
-                { message: 'Bar' }
+            types: [
+                { message: 'Deathmatch' },
+                { message: 'Domination' }
             ]
         }
     },
-    /*		created: function(){
+    created: function(){
             $(document).ready(function() {
                 $('select').material_select();
             });
-        }*/
+    }
 }
 </script>
