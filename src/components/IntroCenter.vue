@@ -2,7 +2,8 @@
 
 <div class="buttonContainer">
     <a class="waves-effect waves-light btn-large" v-on:click="toNewPlayer">New Player</a>
-    <a class="waves-effect waves-light btn-large" v-on:click="toMatch">Match!</a>
+     <a class="waves-effect waves-light btn-large" v-on:click="toMatch">Match!</a>
+     <a class="waves-effect waves-light btn-large" v-on:click="toPlayer">Player!</a>
 </div>
 </template>
 
@@ -15,6 +16,9 @@
             },
             toMatch (event) {
                 this.$parent.$emit('ChangeView', 'Match');
+            },
+            toPlayer (event) {
+                this.$parent.$emit('ChangeView', 'Player');
             }
         }
     }
