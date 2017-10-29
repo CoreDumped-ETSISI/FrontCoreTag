@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Lifes from './PlayerLifes'
-import Chart from './LobbyChart'
+import Lifes from './Lifes/PlayerLifes'
+import Chart from './Chart/LobbyChart'
 
 export default {
     name: 'Player',
